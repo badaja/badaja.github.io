@@ -7,9 +7,22 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "BlinkMacSystemFont";
+";
+  color: #091E42;
+}
 /* Fix for responsive images */
 img {
   max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+  padding: 50px 0px;
+  background-color: #FFAB00;
+  font-family: "circularpro-book";
+  font-size: 40px;
 }
 
 .home {
@@ -32,32 +45,33 @@ img {
   margin-left: 27%;
 }
 
-#home-intro {
+/*#home-intro {
   margin-top: 50px;
-}
+}*/
 
 #home-image {
   display: block;
   margin: 0 auto;
 }
-
-h2 {
-  text-align: center;
-  padding: 50px 0px;
-  background-color: #FFAB00;
+.main-content {
+padding-left: 10%;
+padding-right: 10%;
 }
+
 
 summary {
   background-color: #FF5630;
   padding: 15px;
-  margin-bottom: 10px;
-  font-size: 14px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 16px;
   border-radius: 10px;
   color: white;
 }
 
 p {
   font-size: 16px;
+  line-height: 28px;
 }
 
 .btn-home {
