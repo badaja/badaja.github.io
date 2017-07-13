@@ -45,11 +45,10 @@ h2 {
   text-align: center;
   padding: 50px 0px;
   background-color: #FFAB00;
-  font-family: "circular-pro";
 }
 
 summary {
-  background-color: #4C9AFF;
+  background-color: #FF5630;
   padding: 15px;
   margin-bottom: 10px;
   font-size: 14px;
@@ -66,7 +65,7 @@ p {
   display: block;
   width: 100px;
   margin: 50px auto 0;
-  font-family: helvetica;
+  /*font-family: helvetica;*/
   border-color: #67aa47;
   color: #67aa47;
 }
