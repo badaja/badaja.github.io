@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>StatusPage User Guide</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="img/mark- statuspage-N800.png">
+        <link rel="shortcut icon" href="img/mark- statuspage-N800.png" type="image/x-icon" />
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
+        <link rel="stylesheet" href="css/scrolling-nav.css">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+
+    <body>
+      <nav class="navbar navbar-fixed-top">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-slide-dropdown">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">User Guide</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-slide-dropdown">
+              <ul class="nav navbar-nav">
+                <!--begin drop down nav-->
+                <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Basics<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                      <li><a class="page-scroll" href="#teams">Teams that use StatusPage</a></li>
+                      <li><a class="page-scroll" href="#rollout">Rolling Out StatusPage</a></li>
+                      <li><a class="page-scroll" href="#public-private">Public vs Private Pages</a></li>
+                      <li><a class="page-scroll" href="#quick-start">Quick Start</a></li>
+                    </ul>
+                  </li>
+                <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Setup<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                      <li><a class="page-scroll" href="#account">Manage Account</a></li>
+                      <li><a class="page-scroll" href="#components">Components</a></li>
+                      <li><a class="page-scroll" href="#incidents">Incidents</a></li>
+                      <li><a class="page-scroll" href="#public-metrics">Public Metrics</a></li>
+                    </ul>
+                  </li>
+                <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Manage<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                      <li><a class="page-scroll" href="#subscribers">Subscribers</a></li>
+                      <li><a class="page-scroll" href="#team-members">Team Members</a></li>
+                      <li><a class="page-scroll" href="#customizing">Customizing</a></li>
+                      <li><a class="page-scroll" href="#best-practices">Best Practices</a></li>
+                    </ul>
+                  </li>
+              	<li class="dropdown">
+      			  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Automate<span class="caret"></span></a>
+      			  <ul class="dropdown-menu" role="menu">
+                      <li><a class="page-scroll" href="#integrations">Integrations</a></li>
+                      <li><a class="page-scroll" href="#chatops">ChatOps</a></li>
+                    </ul>
+                  </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="https://help.statuspage.io">Knowledge Base</a></li>
+              </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <!-- end navigation -->
+
+    <div class="home">
+      <img id="home-image" class="img-responsive" src="img/statuspage-N800-ug.png" alt="StatusPage logo">
+      <button type="button" class="btn btn-default btn-lg btn-home">Start</button>
+
+      </div>
+
+
+
+      <div>
+        <h2>StatusPage Basics</h2>
+          <section class="container">
+            <h3 id="teams">Teams That Use StatusPage</h3>
+              <summary>Support teams, ops teams, and IT teams use StatusPage to communicate incidents and outages. Bring your team together and focus on the important things using StatusPage.</summary>
+              <p><b>Support Teams:</b> Deflect support tickets by using StatusPage to communicate with your customers when you're down. Don't leave your customers in the dark and don't bog down your support team with repeat tickets. This leads to angry customers, and a burnt out support team.</p>
+              <p><b>Operations Teams:</b> Pipe your performance metrics and system status into StatusPage so your team has a dedicated place to reference any time.</p>
+              <p><b>IT Teams:</b> Employees and students are becoming more and more dependent on workplace/school technology. Keep them in the loop when servers and systems are down.</p>
+          </section>
+          <section class="container">
+            <h3 id="rollout">How To Roll Out StatusPage ZOOOO</h3>
+              <summary>Set expectations with your team, and communicate with your customers so they know your statuspage exists.</summary>
+              <p><b>Define Your Audience:</b> Make sure you know how you intend to use StatusPage. Is this for internal or external communication? Should everyone receive the same updates or do certain issues only affect certain end users.</p>
+              <p><b>Rally The Troops:</b> Define which team(s) and roles own the StatusPage. This is crucial for initial implementation and longevity. Better to sort this out Day 1, before the first live incident.</p>
+              <p><b>Adopt A Culture of Transparency:</b> Gone are the days when downtime was something you kept hush hush. Customers expect a certain level of transparency these days. Read up on the Service Recovery Paradox.</p>
+              <p><b>Embed Your System Status In-App:</b> Using our Status Widget, you can embed your system status directly in your website, app, or help center. Anytime an incident is posted, a banner will surface on your site.</p>
+          </section>
+          <section class="container">
+            <h3 id="public-private">Public Page vs. Private Page</h3>
+              <summary>Public status pages are for communicating with external customers. Private status pages are for communicating internally with employees and stakeholders.</summary>
+              <p><b>Public Page Functionality: </b>Public pages are viewable by anyone with an internet connection. No authentication is required. Here are some examples, status.dropbox.com, status.twilio.com, status.newrelic.com.</p>
+              <p><b>Private Page Functionality: </b>Private pages are hidden behind authentication. Page viewers must login with credentials in order to view the page. We support SAML 2.0 and Google Auth for private pages. Details on private pages.</p>
+          </section>
+          <section class="container">
+            <h3 id="quick-start">Quick Start</h3>
+              <summary>You can be up and running with a new status page in a matter of minutes</summary>
+              <p><b>Create Components: </b>Components are the functioning pieces of your website or application such as your API, mobile app, help center, and admin tool. Head over to the 'Components' tab to create your components. Details on components.</p>
+              <p><b>Backfill Historical Incidents: </b>If you're migrating to StatusPage from another tool, you can add your previous incidents as a "Backfilled Incident". Details on backfilling.</p>
+              <p><b>Invite a Team Member: </b>Recruit others to help. Invite your support team, ops team, or others so they can also update the status page when things go wrong. Invite team members from the 'Team Members' tab.</p>
+              <p><b>Subscribe to Incident Updates: </b>Click "view status page" from the top navigation when signed in and click the "Subscribe" button on the page. Updates to incidents will be sent out to all subscribers. (more on subscribers below)</p>
+              <p><b>Create a Test Incident: </b>From within the "Dashboard" tab in the left hand navigation you can create a test incident. Give it a title, a brief message and leave it in the "Investigating" stage. Once you click "Create Incident" an incident will be posted on your status page and a notification sent to your test subscriber. (more on incidents below)</p>
+          </section>
+      </div>
+      <div>
+        <h2>Setting Up StatusPage</h2>
+          <section class="container">
+            <h3 id="account">Your Account</h3>
+              <summary>Head to the "Manage Account" section to configure global settings like your timezone, service name, Google Analytics tracking, notifications, and billing info.</summary>
+              <p><b>Service Name: </b>This is the name we use in SMS and Email notifications. Usually it's the name of your company or product.</p>
+              <p><b>Notifications: </b>Turn on/off notifications such as long-running incidents, billing receipts, and issues with external accounts used for integrations. Details on account notifications.</p>
+              <p><b>Google Analytics Tracking: </b>Measure traffic to your page by inputting a Google Analytics tracking code. Details on tracking.</p>
+              <p><b>Configure an Invoice Recipient: </b> Your accounting team will probably want receipts. Set their email address as an invoice recipient. Details on receipts.</p>
+            <h3 id="components">Components</h3>
+              <summary>Components allow you to be more granular with reporting your system status. They are the functioning pieces of your application. If you want, you can automate your components, or surface a third-party component on your page.</summary>
+              <p><b>Component Groups: </b>Keep your page organized and easy to navigate by grouping similar components together under an expandable Component Group.</p>
+              <p><b>Component Automation: </b>Automatically update the status of your components using email automation, our API, or one of our integrations.</p>
+              <p><b>Third-party Components: </b>If your service is heavily dependent on a third-party service, you can surface that component (as long as we offer it) on your own status page. Details on components.</p>
+            <h3 id="incidents">Inicidents</h3>
+              <summary>Incidents are the best way to communicate with your customers during downtime. To keep your customers in the loop, add an incident to your page and post updates until it's resolve.</summary>
+              <p><b>Scheduled Maintnenace: </b>Let your customers know ahead of time when you're going to be unavailable due to maintenance. Scheduled maintenances appear on your status page and also send a notification to subscribers. Details on maintenance.</p>
+              <p><b>Incident Templates: </b>Be prepared for downtime by writing incident templates you can use to auto fill when creating a live incident. Details on templates.</p>
+              <p><b>Postmortems: </b>After a major incident is resolved, you can create a postmortem to explain what happened. Postmortems should include an apology, understanding of what happened, and a remediation plan. Postmortems will be published within the incident, and can notify your subscribers. Details on postmortems.</p>
+            <h3 id="public-metrics">Public Metrics</h3>
+              <summary>We believe in being transparent with customers. Use Public Metrics to display real-time data such as response time and uptime. Metrics can be created using our API, or through a third-party data source we integrate with.</summary>
+              <p><b>Example Metrics: </b>Some common metrics we see are API response time, server uptime, average time an outbound request sits in a queue, current exception rate of all requests, and average first reply time on customer support requests. Details on metrics.</p>
+              <p><b>Third-Party Data Sources: </b>  If you have data in Pingdom, New Relic, Librato, or Datadog, we have integrations with each of those services and you can easily get that data flowing into StatusPage as a Public Metric. Details on 3rd party metrics.</p>
+              <p><b>Adding a Custom Metric: </b>If your data is not in one of the above third-party services, you can create metric data using our API.</p>
+          </section>
+      </div>
+      <div>
+        <h2>Managing Your StatusPage</h2>
+          <section class="container">
+            <h3 id="subscribers">Subscribers</h3>
+              <summary>StatusPage can send out notifications to your customers via Email or SMS when you create or update incidents. All you have to do is make sure the incident is created, we'll handle notifying the people who need to know about it.</summary>
+              <p><b>Manually Adding Subscribers: </b>If you already have a list of emails or phone numbers, you can import them as subscribers using a CSV or by adding individual subscribers manually. Details on CSV import.</p>
+              <p><b>Sync Subscribers Using the API: </b>User our API to programatically create subscribers based on events or actions in another system. More on subscriber API.</p>
+              <p><b>Self-service Signup: </b>As long as you have Email and/or SMS subscriptions enabled, anyone who visits your page can subscribe to updates by clicking the "Subscribe to Updates" button.</p>
+              <p><b>Component Subscriptions: </b>Component subscriptions ensure your subscribers are only getting notified about the things they care about. To enable this feature, you must be on the Business, Growth, or Corporate plan. Details on component subscriptions.</p>
+              <p><b>Webhook Subscriptions: </b>Anyone can subscribe to your status page to receive a webhook notification when you post/update an incident and when components are updated. Details on webhooks.</p>
+            <h3 id="team-members">Team Members</h3>
+              <summary>Team members can be thought of as "admins". They are the people who have access to your account to create incidents, change the state of components, and much more.</summary>
+              <p><b>Account Owner: </b>There is only 1 account owner on each account. The only difference between the account owner and a regular team member is that the account owner can remove team members.</p>
+              <p><b>Access Controls: </b>StatusPage doesn't currently have any access controls or granular permission levels for team members. All team members within the account have access to each page under the account and all of the features under each page.</p>
+              <p><b>Removing Team Members: </b>Only the account owner has permissions to remove other team members. If your account owner is no longer with the company, please reach out and we'll assist with these requests.</p>
+            <h3 id="customizing">Customizing StatusPage</h3>
+              <summary>We allow you to bring your own flavor to your status page</summary>
+              <p><b>Basic Logo vs Cover Image: </b>Use a basic layout that displays your logo at the top of the page, or give your page some flair with a custom header.</p>
+              <p><b>CSS/HTML/Javascript: </b>Customize the layout and structure of your page by writing your own css/html/JS.</p>
+              <p><b>Other Customizations: </b>Use a custom domain, translate your page into multiple languages, and set a custom 'from' address. Details on customizations.</p>
+            <h3 id="best-practices">Incident Communication Best Practices</h3>
+              <summary>Communication is our core. We help you talk to your customers during downtime</summary>
+              <p><b>Communicate Clearly: </b>Focus on how exactly your customers are impacted by the incident. If not everyone is impacted, let that be known.</p>
+              <p><b>Communicate Often: </b>Once you create your incident, don't leave your customers hanging. Post updates regularly.</p>
+              <p><b>Post Incident Report: </b>We call these "postmortems" in StatusPage. After a major incident, it's always good to let your customers know what happened and what you're doing to avoid the incident from happening again.</p>
+          </section>
+      </div>
+      <div>
+        <h2>Automating StatusPage</h2>
+          <section class="container">
+            <h3 id="integrations">Automation Options</h3>
+              <summary>StatusPage doesn't do any direct monitoring of websites or servers but we do integrate with monitoring and alerting tools. Our API also allows you to create incidents, update components, manage subscribers, and more.</summary>
+              <p><b>Email Automation: </b>Automatically update the status of your components by configuring your monitoring tool to send us emails. Details on email automation.</p>
+              <p><b>PagerDuty: </b>Take your status page to the next level with our PagerDuty integration. Automatically create incidents and update components by configuring rules. Details on PagerDuty.</p>
+              <p><b>Other Integrations: </b>More integrations are available for Pingdom, New Relic, OpsGenie, xMatters, VictorOps, and Pingometer. Each of these integrations offer functionality ranging from changing the state of components, to creating incidents. Details on other.</p>
+            <h3 id="chatops">ChatOps</h3>
+              <p><b>HipChat and Slack: </b>Keep your team in the loop by syncing StatusPage events (like who created an incident, or what the status was changed to) into your HipChat rooms or Slack channels. Control the noise by filtering out different types of events and actions. More Info.</p>
+          </section>
+      </div>
+
+
+
+
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
