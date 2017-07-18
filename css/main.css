@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+#nav-logo {
+  display: block;
+}
+
 body {
   font-family: "BlinkMacSystemFont";
 ";
@@ -22,7 +26,13 @@ h1 {
   padding: 50px 0px;
   background-color: #FFAB00;
   font-family: "circularpro-book";
-  font-size: 40px;
+  font-size: 50px;
+  color: #172B4D;
+}
+h3 {
+  font-size: 18px;
+  font-family: "circularpro-book";
+  text-transform: uppercase;
 }
 
 .home {
@@ -39,6 +49,11 @@ h1 {
   color: white;
   }
 
+#nav-logo img { display: inline-block; max-height: 20px; vertical-align: middle; margin-right: 4px; }
+#nav-logo a { display: inline-block; vertical-align: middle; }
+
+.navbar-toggle .icon-bar { background-color: white; }
+
 #home-title {
   color: #505F79;
   font-size: 50px;
@@ -53,19 +68,21 @@ h1 {
   display: block;
   margin: 0 auto;
 }
+
 .main-content {
-padding-left: 10%;
-padding-right: 10%;
+padding-left: 6%;
+padding-right: 6%;
+margin-bottom: 50px;
 }
 
 
 summary {
   background-color: #FF5630;
-  padding: 15px;
+  padding: 25px;
   margin-bottom: 15px;
   margin-top: 15px;
-  font-size: 16px;
-  border-radius: 10px;
+  font-size: 15px;
+  border-radius: 15px;
   color: white;
 }
 
@@ -75,11 +92,27 @@ p {
 }
 
 .btn-home {
-  /*margin-top: 20px;*/
   display: block;
   width: 100px;
   margin: 50px auto 0;
-  /*font-family: helvetica;*/
-  border-color: #67aa47;
-  color: #67aa47;
+  background-color: #0052CC;
+  color: white;
+  width: 150px;
+  font-size: 15px;
+}
+
+#thank-you-note {
+  text-align: center;
+  font-size: 40px;
+}
+
+#thankyou-section {
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
+
+.product-image {
+  border: 1px solid #B3BAC5;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
