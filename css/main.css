@@ -13,7 +13,6 @@
 
 body {
   font-family: "BlinkMacSystemFont";
-";
   color: #091E42;
 }
 /* Fix for responsive images */
@@ -44,12 +43,12 @@ h3 {
   background-color: #0052CC;
   color: white;
 }
-
 .navbar a {
   color: white;
+  font-family: "BlinkMacSystemFont";
   }
 
-#nav-logo img { display: inline-block; max-height: 20px; vertical-align: middle; margin-right: 4px; }
+#nav-logo img { display: inline-block; max-height: 25px; vertical-align: middle; margin-right: 4px; }
 #nav-logo a { display: inline-block; vertical-align: middle; }
 
 .navbar-toggle .icon-bar { background-color: white; }
@@ -59,10 +58,6 @@ h3 {
   font-size: 50px;
   margin-left: 27%;
 }
-
-/*#home-intro {
-  margin-top: 50px;
-}*/
 
 #home-image {
   display: block;
