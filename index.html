@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/scrolling-nav.css">
-        <link href="circular-pro/circularpro-book" rel="stylesheet" type="text/css">
+        <link href="circular-pro/circularpro-book.ttf" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="css/main.css">
         <script src="https://use.fontawesome.com/f70bf2dcf6.js"></script>
 
@@ -76,7 +76,9 @@
                   </li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
-                  <li><a href="https://help.statuspage.io">Knowledge Base</a></li>
+                <button class="btn btn-sm">
+                  <li class><a href="https://help.statuspage.io">Knowledge Base</a></li>
+                </button>
               </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -91,8 +93,7 @@
 
       <div>
         <h1 id="basics">StatusPage Basics
-          <i class="fa fa-info-circle" aria-hidden="true"></i>
-</h1>
+          <i class="fa fa-info-circle" aria-hidden="true"></i></h1>
           <section class="container main-content">
             <h2 id="teams">Teams That Use StatusPage</h2>
               <summary>StatusPage is a communication tool. We help you talk to your customers and employees during outages, and planned maintenance. Our customers include other software companies, colleges, and large IT teams.</summary>
@@ -138,7 +139,7 @@
                 <h3>Private Pages</h3>
                 <p>Private pages are hidden behind authentication. Page viewers must login with credentials in order to view the page. StatusPage supports SAML 2.0 and Google Auth for private pages. Details on private pages.</p>
               </div>
-              <div class="col-xs-12 col-md-6">
+              <div class="photo col-xs-12 col-md-6">
                 <img class="img-responsive" src="img/private-page.png" alt="Teams">
               </div>
             </div>
@@ -171,7 +172,7 @@
             <h2 id="account">Your Account</h2>
               <summary>Head to the "Manage Account" section to configure global settings like your timezone, service name, Google Analytics tracking, notifications, and billing info.</summary>
             <div class="row">
-              <div class="col-xs-12 col-md-6">
+              <div class="grow photo col-xs-12 col-md-6">
                 <img class="product-image img-responsive" src="img/account.png" alt="Account">
                 <img class="product-image img-responsive" src="img/account-2.png" alt="Account">
               </div>
@@ -202,7 +203,7 @@
                 <h3>Third-Party Components</h3>
                 <p>With Third-Party Components, your status page will update the second that one of your providers degrades their own status or flips the switch back to operational. There's no need to play middle man or chase down providers to get an update. We have a growing list of third-party components including many popular SASS services you use every day.</p>
               </div>
-                <div class="col-xs-12 col-md-6">
+                <div class="photo col-xs-12 col-md-6">
                   <img class="product-image img-responsive" src="img/components.png" alt="Components">
                   <img class="product-image img-responsive" src="img/third-party-components.png" alt="Third Party Components">
 
@@ -213,7 +214,7 @@
             <h2 id="incidents">Inicidents</h2>
               <summary>Incidents are the best way to communicate with your customers during downtime. To keep your customers in the loop, add an incident to your page and post updates until it's resolve.</summary>
             <div class="row">
-              <div class="col-xs-12 col-md-6">
+              <div class="photo col-xs-12 col-md-6">
                 <img class="product-image img-responsive" src="img/incidents.png" alt="Teams">
               </div>
               <div class="col-xs-12 col-md-6">
@@ -238,7 +239,7 @@
                 <h3>Adding a Custom Metric</h3>
                 <p>If your data is not in one of the above third-party services, you can create metric data using our API.</p>
               </div>
-              <div class="col-xs-12 col-md-6">
+              <div class="photo col-xs-12 col-md-6">
                 <img class="product-image img-responsive" src="img/metrics.png" alt="Teams">
               </div>
             </div>
@@ -251,7 +252,7 @@
             <h2 id="subscribers">Subscribers</h2>
               <summary>StatusPage can send out notifications to your customers via Email or SMS when you create or update incidents. All you have to do is make sure the incident is created, StatusPage handles notifying the people who need to know about it.</summary>
             <div class="row">
-              <div class="col-xs-12 col-md-6">
+              <div class="photo col-xs-12 col-md-6">
                 <img class="product-image img-responsive" src="img/email.png" alt="Email">
                 <img class="product-image img-responsive" src="img/subscribers.png" alt="Subscribers">
               </div>
@@ -281,7 +282,7 @@
                 <h3>Removing Team Members</h3>
                 <p>Only the account owner has permissions to remove other team members.</p>
               </div>
-              <div class="col-xs-12 col-md-6">
+              <div class="photo col-xs-12 col-md-6">
                 <img class="product-image img-responsive" src="img/team.png" alt="Team">
               </div>
             </div>
@@ -290,7 +291,7 @@
             <h2 id="customizing">Customizing StatusPage</h2>
               <summary>Bring your own flavor to your status page by adding your logo and customizing the colors. Or completely costumize your page with HTML, CSS, and Javascript.</summary>
             <div class="row">
-              <div class="col-xs-12 col-md-6">
+              <div class="photo col-xs-12 col-md-6">
                 <img class="product-image img-responsive" src="img/customize.png" alt="customize">
               </div>
               <div class="col-xs-12 col-md-6">
@@ -315,7 +316,7 @@
                 <h3>Post Incident Report</h3>
                 <p>After a major incident, it's always good to let your customers know what happened and what you're doing to avoid the incident from happening again. These are called Postmortems in StatusPage.</p>
               </div>
-              <div class="col-xs-12 col-md-6">
+              <div class="photo col-xs-12 col-md-6">
                 <img class="img-responsive" src="img/best-practices.png" alt="Best Practices">
               </div>
             </div>
@@ -327,7 +328,7 @@
             <h2 id="integrations">Automation Options</h2>
               <summary>StatusPage doesn't do any direct monitoring of websites or servers but we do integrate with monitoring and alerting tools. Our API also allows you to create incidents, update components, manage subscribers, and more.</summary>
             <div class="row">
-              <div class="col-xs-12 col-md-6">
+              <div class="photo col-xs-12 col-md-6">
                 <img class="img-responsive" src="img/automation.png" alt="Best Practices">
               </div>
               <div class="col-xs-12 col-md-6">
@@ -350,7 +351,7 @@
                 <h3>Slack</h3>
                 <p>Just like our HipChat integration, when your status page is updated, we pipe those events into a Slack channel to keep your whole team on the same page. You can filter our different events to control the noise. More Info.</p>
               </div>
-              <div class="col-xs-12 col-md-6">
+              <div class="photo col-xs-12 col-md-6">
                 <img class="product-image img-responsive" src="img/hipchat-statuspage.png" alt="Best Practices">
               </div>
             </div>
@@ -360,7 +361,7 @@
               <summary>StatusPage has two API's. An authenticated API, and a page API.</summary>
             <div class="row">
               <div class="col-xs-12 col-md-6">
-                <img class="product-image img-responsive" src="img/api.png" alt="Best Practices">
+                <img class="photo product-image img-responsive" src="img/api.png" alt="Best Practices">
               </div>
               <div class="col-xs-12 col-md-6">
                 <h3>Page API</h3>

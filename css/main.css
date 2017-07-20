@@ -45,19 +45,29 @@ h3 {
 }
 .navbar a {
   color: white;
-  font-family: "BlinkMacSystemFont";
+  /*font-family: "circularpro-book";*/
+  text-decoration: none !important;
   }
 
-#nav-logo img { display: inline-block; max-height: 25px; vertical-align: middle; margin-right: 4px; }
-#nav-logo a { display: inline-block; vertical-align: middle; }
+#nav-logo img { display:
+  inline-block;
+  max-height: 25px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+#nav-logo a {
+  display: inline-block;
+  vertical-align: middle;
+  /*margin-bottom:2px;*/
+}
 
 .navbar-toggle .icon-bar { background-color: white; }
 
-#home-title {
+/*#home-title {
   color: #505F79;
   font-size: 50px;
   margin-left: 27%;
-}
+}*/
 
 #home-image {
   display: block;
@@ -74,7 +84,7 @@ margin-bottom: 50px;
 summary {
   background-color: #FF5630;
   padding: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   margin-top: 15px;
   font-size: 15px;
   border-radius: 15px;
@@ -110,4 +120,32 @@ p {
   border: 1px solid #B3BAC5;
   border-radius: 10px;
   margin-bottom: 20px;
+}
+
+.photo {
+  margin-top: 21px;
+}
+
+/*kb button below*/
+.btn-sm {
+  margin-top: 10px;
+  background-color: #FFAB00;
+  font-size: 12px;
+  font-weight: 600;
+}
+.btn-sm a {
+  color: #172B4D;
+}
+
+/*grow image*/
+
+.grow img{
+transition: 1s ease;
+}
+
+.grow img:hover{
+-webkit-transform: scale(1.5);
+-ms-transform: scale(1.5);
+transform: scale(1.5);
+transition: 1s ease;
 }
