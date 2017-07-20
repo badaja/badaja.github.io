@@ -45,7 +45,6 @@ h3 {
 }
 .navbar a {
   color: white;
-  /*font-family: "circularpro-book";*/
   text-decoration: none !important;
   }
 
@@ -133,11 +132,16 @@ p {
   font-size: 12px;
   font-weight: 600;
 }
+
 .btn-sm a {
   color: #172B4D;
 }
 
 /*grow image*/
+
+.grow {
+  z-index: 100;
+}
 
 .grow img{
 transition: 1s ease;
